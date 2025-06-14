@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="../../CCS0043L-TS21/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m Vian Tibay,
+
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <ul>
+      <li>Project 1 - This project is a responsive personal portfolio website built using HTML, CSS, and PHP. It showcases my skills, projects, and contact information in a professional layout. PHP scripts are used to manage the contact form, dynamically display the latest projects, and handle basic server-side functionality like user input and form validation.</li>
+      <br>
+      <li>Project 2 - This project is an online feedback form created with HTML and styled using CSS. PHP is integrated to process the submitted form data, store responses in a text file or database, and display a confirmation message. It serves as an example of handling user input and building interactive web components with PHP.
+
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="../../CCS0043L-TS21/php/contact.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vian Tibay. All rights reserved.</p>
+  </footer>
+</body>
+</html>
